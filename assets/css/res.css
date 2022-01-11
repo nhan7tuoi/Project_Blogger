@@ -1,0 +1,170 @@
+/* tablet vs mobile */
+
+@media (max-width:63.9375em) { 
+    /* header */
+    .intro {
+        flex-direction: column;
+        align-items: start;
+    }
+    .nav-list {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: unset;
+        padding: 1rem;
+        z-index: 1;
+    }
+    .Education-item-body-text {
+        text-align: justify;
+    }
+    .display {
+        top: 20px;
+    }
+}
+
+/* tablet */
+
+@media  (min-width:46.25em) and (max-width:63.9375em) { 
+    /* header */
+    .intro {
+        flex-direction: column;
+        align-items: start;
+    }
+   
+    .intro-contact {
+        margin: 3rem 3rem 3rem 0;
+        display: flex;
+
+    }
+
+    .self-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     /* nut bam */
+     .nav-list {
+      
+        justify-content: space-evenly;
+        padding: 1rem;
+    }
+    .nav-item {
+        height: 7rem;
+        margin-top: unset;
+        padding: 0.5rem;
+
+    }
+ 
+}
+
+
+/* mobile */
+
+@media (max-width:46.1875em) {
+    main {
+        overflow: auto;
+    }
+    /* header */
+    .intro {
+        padding: 1rem;
+    }
+
+    .intro-user-name-iuh-img {
+        top: -5px;
+    }
+   
+    .intro-user-name-ten {
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+
+    .intro-user-name-position {
+        padding: 0 1rem;
+    }
+
+    .intro-user {
+        flex-direction: column;
+        /* align-items: center; */
+        width: 100%;
+    }
+    .intro-contact {
+        width: unset;
+    }
+    .nav-list {
+       
+        width: 100%;
+        justify-content: space-around;
+    }
+    .nav-item {
+        height: 8rem;
+        margin-top: unset;
+        padding: unset;
+    }
+
+  
+    /* ban than */
+      
+        .self-item-body-img {
+            width: 100%;
+        }
+    /* hoc van */
+
+        .Education-item-body-h4::after {
+            left: -15%;
+            top: 72%;
+        }
+        .Education-item-body-h4::before {
+            display: none;
+        }
+     /* muc tieu*/
+     
+        .target {
+            height: 100%;
+            margin-bottom: 50px;
+        }
+
+        .target-item-body-h4 {
+            padding: 2rem 0 0 0;
+
+        }
+        .target-item-body-h4::after {
+            left: -15%;
+            top: 66%;
+
+        }
+        .target-item-body-h4::before {
+            display: none;
+        }
+        /* ưu thích */
+        .interest {
+            padding: unset;
+        }
+        .Education-item-head {
+            left: -1rem;
+        }
+    
+        .interest-play-img {
+            width: 130px;
+            height: 100px;
+        }
+        .interest-play-heading {
+            font-size: 2rem;
+        }
+        .interest-img {
+            width: 130px;
+            margin-right: unset;
+        }
+
+        .nav-item 
+        {
+            width: 80px ;
+            height: 50px;
+            
+        }
+        .nav-item-text {
+            font-size: 1.4rem;
+        }
+
+}
